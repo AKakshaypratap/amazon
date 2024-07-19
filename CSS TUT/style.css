@@ -1,0 +1,29 @@
+/* these are element selector */
+/* h1{
+    color : red
+}
+p{
+    color:green;
+}
+button{
+    color:chartreuse;
+    background-color: coral;
+}
+body{
+    background-color: yellowgreen;
+} */
+
+/* these are universal selector */
+/* *{
+    color : red             star symbol is called asterisk
+} */
+
+/* Id selector */
+ /* #myld{
+    color : purple
+} */
+
+/* class selector : used to select multiple lines for color */
+.myclass{
+    color : magenta ;
+}

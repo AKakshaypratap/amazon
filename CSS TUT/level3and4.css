@@ -1,0 +1,62 @@
+/* #box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+#box2{
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+}
+*/
+    /* em, rem, viewport height(vh) viewport widht(vw) */
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+/* #box1{
+    position: static; 
+    background-image: url("rabbit.jpg");
+    background-size: cover;
+}
+/*top, bottom = 20px, left, right, z index have no effect*/
+/* #box2{
+    position: relative;
+    top: 10px;
+}
+#box3{
+    position: absolute;
+    top: 10px;
+}
+#box4{
+    position: fixed;
+    right: 20px;
+}  */
+
+body{
+    text-align: center;
+}
+#container{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: pink;
+}
+#box3{
+    background-color: darkkhaki;
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: blue ;
+}

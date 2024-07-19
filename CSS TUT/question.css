@@ -1,0 +1,153 @@
+/* #box{
+    background-color: blue;
+    color : white
+}
+ 
+.heading{
+    color : red;
+}
+button{
+    background-color : green;
+}
+h1{
+    text-align: center;
+    text-decoration: line-through;
+}
+#h2{
+    font-weight: lighter;
+}
+#h3{
+    font-weight: bolder;
+}
+#h4{
+    font-weight: normal;
+} */
+
+/* #h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+*{
+    font-family: times new roman ;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+} */
+
+/**{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color:  white;
+}
+#logo{
+   color : #f08804 ;
+   font-size : 25px ;
+}
+button{
+    background-color: #f08804;
+}
+a{
+ margin-right: 200px;   
+} */
+
+/* #box{
+    background-color: rgba(255 0 0 0.5) ;
+    display: inline-block;
+    color : black ;
+    height: 100px;
+    width: 100px;
+} 
+
+/*header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.contentbox{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#content{
+    height: 610px;
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-image: url("rabbit.jpg");
+    background-size: cover;
+    color: white;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+} */
+
+/* ul{ 
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+li{
+    list-style-type: none;
+    display: inline;
+} */
+
+/*div{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+ @media(max-width : 300px){
+    div{
+    background-color: green;
+    }
+} 
+@media(min-width: 300px) and (max-width: 400px){
+    div{
+    background-color: pink;
+    }
+}
+@media(min-width: 400px) and (max-width: 600px){
+    div{
+        background-color: red;
+    }
+}
+ @media(min-width:600px){
+    div{
+        background-color: blue;
+    }
+} */
+
+div{
+    height: 200px;
+    width: 200px;
+    border: 10px solid red;
+    border-radius: 50%;
+    border-top: 10px solid green;
+    animation: spinanimate 3s ease-in 0s infinite normal;
+}
+@keyframes spinanimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
